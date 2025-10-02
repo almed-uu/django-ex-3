@@ -2,7 +2,7 @@
   "kind": "Template",
   "apiVersion": "template.openshift.io/v1",
   "metadata": {
-    "name": "django-example",
+    "name": "synjem-one",
     "annotations": {
       "openshift.io/display-name": "Django",
       "description": "An example Django application with no database. For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
@@ -16,8 +16,8 @@
     }
   },
   "labels": {
-      "template": "django-example",
-      "app": "django-example"
+      "template": "synjem-one",
+      "app": "synjem-one"
   },
   "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
   "objects": [
@@ -252,7 +252,7 @@
       "displayName": "Git Repository URL",
       "required": true,
       "description": "The URL of the repository with your application source code.",
-      "value": "https://github.com/sclorg/django-ex.git"
+      "value": "https://github.com/almed-uu/django-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
